@@ -1,12 +1,16 @@
 const express = require('express');
 const app = express();
 const db = require('./db/connection');
+const bodyParser = require('body-parser');
 
-const PORT = 3000;
+const PORT = 4000;
 
 app.listen(PORT, function () {
   console.log(`O express está rodando na porta ${PORT}`);
 });
+
+//body parser
+app.use(bodyParser.urlencoded({ extended: false }));
 
 //db connection
 db.authenticate()
@@ -19,5 +23,8 @@ db.authenticate()
 
 //router
 app.get('/', (req, res) => {
-  res.send('Está funcionando 3');
+  res.send('Está funcionando 4');
 });
+
+//jobs router
+app.use('/jobs', require('./routes/jobs'));

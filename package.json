@@ -1,0 +1,27 @@
+{
+  "name": "projeto-node-express-sequelize-job-finder",
+  "version": "1.0.0",
+  "description": "Este sistema e um portal para programadores encontrar vagas",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "sequelize": "^6.13.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

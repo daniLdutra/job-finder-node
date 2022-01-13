@@ -1,3 +1,39 @@
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/* nav */
+.navbar {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar .nav-item a {
+  color: #212529;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.navbar .nav-item .btn {
+  color: #fff;
+  background-color: #f03e3e;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.nav-link.btn.btn-primary:hover,
+#search-form button:hover,
+.list-group-item a:hover,
+#form-box button:hover {
+  background-color: #fff;
+  color: #f03e3e;
+  border-color: #f03e3e;
 }

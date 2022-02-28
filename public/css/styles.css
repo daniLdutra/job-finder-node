@@ -59,3 +59,28 @@
   font-size: 1rem;
   padding-bottom: 80px;
 }
+
+/* form */
+
+#search-form {
+  padding: 30px 100px;
+}
+
+#search-form .col-md-10,
+#search-form .col-md-2 {
+  padding: 0;
+}
+
+#search-form input,
+#search-form button {
+  width: 100%;
+  border-radius: 0;
+  height: 50px;
+  font-size: 18px;
+}
+
+#search-form button {
+  color: #fff;
+  background-color: #f03e3e;
+  border: 1px solid transparent;
+}

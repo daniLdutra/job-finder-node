@@ -84,3 +84,42 @@
   background-color: #f03e3e;
   border: 1px solid transparent;
 }
+
+/* lista */
+
+#jobs-container {
+  padding: 0 100px;
+  padding-bottom: 50px;
+}
+
+#job-list .list-group-item {
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  padding: 15px 80px;
+  color: #212529;
+  height: 120px;
+}
+
+#job-list .list-group-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#job-list .list-group-item.new-job {
+  border: none;
+  background-color: #fff7cc;
+}
+
+#job-list-title {
+  margin-bottom: 35px;
+}
+
+.list-group-item img {
+  width: 80px;
+  border: 1px solid #212529;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: -40px;
+  top: calc(50% - 40px);
+}

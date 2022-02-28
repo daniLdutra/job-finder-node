@@ -17,22 +17,30 @@
 
   <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Job Finder</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Ver Vagas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link btn btn-primary" href="add.html">Abrir Vaga</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Job Finder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Ver Vagas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" href="add.html">Abrir Vaga</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div id="top-container" class="container-fluid">
       <h1 id="main-title" class="text-center">
@@ -58,51 +66,59 @@
       </form>
     </div>
     <main>
-        <div id="jobs-container" class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h2 id="job-list-title">Veja as nossas vagas em destaque</h2>
-                <ul id="job-list" class="list-group">
-                  <li class="list-group-item new-job">
-                    <img src="public/img/company.svg" alt="Company">
-                    <p>Empresa</p>
-                    <h2>Título da vaga</h2>
-                    <p>R$2000,00</p>
-                    <span class="new-job-label">Nova</span>
-                    <a class="btn btn-primary">Ver vaga</a>
-                  </li>
-                  <li class="list-group-item new-job">
-                    <img src="public/img/company.svg" alt="Company">
-                    <p>Empresa</p>
-                    <h2>Título da vaga</h2>
-                    <p>R$2000,00</p>
-                    <span class="new-job-label">Nova</span>
-                    <a class="btn btn-primary">Ver vaga</a>
-                  </li>
-                  <li class="list-group-item">
-                    <img src="public/img/company.svg" alt="Company">
-                    <p>Empresa</p>
-                    <h2>Título da vaga</h2>
-                    <p>R$2000,00</p>
-                    <a class="btn btn-primary">Ver vaga</a>
-                  </li>            
-                  <li class="list-group-item">
-                    <img src="public/img/company.svg" alt="Company">
-                    <p>Empresa</p>
-                    <h2>Título da vaga</h2>
-                    <p>R$2000,00</p>
-                    <a class="btn btn-primary">Ver vaga</a>
-                  </li>
-                </ul>
-            </div>
+      <div id="jobs-container" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 id="job-list-title">Veja as nossas vagas em destaque</h2>
+            <ul id="job-list" class="list-group">
+              <li class="list-group-item new-job">
+                <img src="public/img/company.svg" alt="Company" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <span class="new-job-label">Nova</span>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+              <li class="list-group-item new-job">
+                <img src="public/img/company.svg" alt="Company" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <span class="new-job-label">Nova</span>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+              <li class="list-group-item">
+                <img src="public/img/company.svg" alt="Company" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+              <li class="list-group-item">
+                <img src="public/img/company.svg" alt="Company" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </main>
+      </div>
     </main>
-
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
   </body>

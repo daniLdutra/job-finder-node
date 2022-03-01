@@ -16,8 +16,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 //handle bars
 app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.engine('handlebars', exphbs.engine());
 app.set('view engine', 'handlebars');
+
+//static folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 //db connection
 db.authenticate()
@@ -30,7 +33,7 @@ db.authenticate()
 
 //router
 app.get('/', (req, res) => {
-  res.send('Está funcionandooooo');
+  res.render('index');
 });
 
 //jobs router

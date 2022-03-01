@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const db = require('./db/connection');
+const db = require('../db/connection');
 const bodyParser = require('body-parser');
 
 const PORT = 3500;
@@ -27,4 +27,4 @@ app.get('/', (req, res) => {
 });
 
 //jobs router
-app.use('/jobs', require('./routes/jobs'));
+app.use('/jobs', require('./jobs'));
